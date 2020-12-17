@@ -16,7 +16,7 @@ public class Playlist {
             System.out.println("Enter type: ");
             String typ = reader.readLine();
 
-            Media media = new Media(name, Type_list.valueOf(typ));
+            Media media = new Media(name, TypeMedia.valueOf(typ));
             playlist.add(media);
             System.out.println("Media adding to playlist\n");
         }  catch (IllegalArgumentException ie){

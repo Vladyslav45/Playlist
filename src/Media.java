@@ -1,8 +1,8 @@
 public class Media{
     private String name;
-    private Type_list typeList;
+    private TypeMedia typeList;
 
-    public Media(String name, Type_list typeList) {
+    public Media(String name, TypeMedia typeList) {
         this.name = name;
         this.typeList = typeList;
     }
